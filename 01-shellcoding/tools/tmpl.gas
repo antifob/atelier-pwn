@@ -1,0 +1,14 @@
+#
+# A template for Linux assembly
+#
+# usage:
+#
+#   as -o out.o src.gas
+#   ld -o out.bin out.o
+#
+.text
+.intel_syntax noprefix
+.global _start
+
+_start:
+	# instructions here
